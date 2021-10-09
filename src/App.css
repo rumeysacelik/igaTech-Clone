@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.active{
+  position: sticky;
+  top: 0 !important;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: #fff;
+  
+  z-index: 1002;
+  box-shadow: 0 15px 50px -15px rgb(0 0 0 / 50%); 
+} 
+
+.activeItem{
+  color: #3C4151 !important ;
+  
+ 
+}
+.activeItem:hover{   
+  
+  color:#00bed6 !important;
+  
+}
+
+.newsImage{
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  background: linear-gradient(
+225deg
+,rgba(0,0,0,0) 50%,rgba(0,190,214,.6) 100%);
+  z-index: 0;
+}
+
+.a-btn{
+  height: 50px;
+    width: 50px;
+    border:none;
+    top:57%;
+    right: 34.1%;
+    display: inline-block;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+
+.textContent{
+  position: absolute;
+  left: 14%;
+  top: 37%;
+  z-index: 5;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  text-align: left;
+}
+
+.title{
+  font-size: 50px;
+    line-height: 56px;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'DIN Next LT Pro';
+}
+
+/* .button_slide {
+  color: #FFF;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px  0 0 #D80286;
+} */
+
+.a-btn-slide-text {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 0;
+  background: #00bed6;
+  color: #fff;
+  font-size: 15px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-align: left;
+  overflow: hidden;
+  line-height: 50px;
+  transition: all .2s linear;
+}
+
+.a-btn-icon-right, .a-btn-icon-right-hover {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.mapGif{
+  margin-top: -1400px;
+  height: 328px;
+  margin-left: 600px;
+  
+
+
+}
+
+.img-wrapper
+{
+    position:  relative;
+    float: left;
+    height: 100px;
+    width: 11px;
+
+}
+
+.extrem-height-image
+{
+  position: relative;
+  top: 0;
+  margin-left:200px;
+  margin-right: 1000px;
+  height:100px;
+  width: auto;
+
+  transition: all .5s;
+}
+
+.extrem-height-image:hover
+{
+   left: 300px;
+}
